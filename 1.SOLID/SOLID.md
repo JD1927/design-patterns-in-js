@@ -24,3 +24,9 @@ Specification Pattern: Allows to write something that is very modular and very e
 
 **Obs: It is important to design properly the system and the classes to implement**
 
+## Liskov Substitution Principle
+
+If you have some method or function, which takes some base type, it should also equally be able to take a derived type.
+
+Example: Rectangle, and if Square extends from Rectangle, both should be valid if for instance, we decide to check the area. width times height
+
