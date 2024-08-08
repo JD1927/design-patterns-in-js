@@ -30,3 +30,9 @@ If you have some method or function, which takes some base type, it should also 
 
 Example: Rectangle, and if Square extends from Rectangle, both should be valid if for instance, we decide to check the area. width times height
 
+## Interface Segregation Principle
+
+Formalize the integration with a particular system.
+
+Basically means, segregate (split up) interfaces into different parts so people do not implement more than what they need.
+
