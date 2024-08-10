@@ -36,3 +36,10 @@ Formalize the integration with a particular system.
 
 Basically means, segregate (split up) interfaces into different parts so people do not implement more than what they need.
 
+## Dependency Inversion Principle
+
+Dependency Inversion principle does not have anything to do to the DI - Dependency Injection. Although, is somewhat a consequence of the dependency inversion principle.
+
+Defines a relationship that you should have between low level modules and high level modules.
+
+High Level Modules such as research should not directly depend on Low Level Modules such as relationships or any data. They should instead depend on abstractions (classes/interfaces).
