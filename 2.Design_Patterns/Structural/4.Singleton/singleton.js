@@ -12,8 +12,9 @@
   Singleton: A component which is instantiated only once!
 
   Summary:
-  - 
-
+  - A constructor can choose what to return; we can keep returning same instance
+  - Mono-state: many instances shared data - Not recommended
+  - Directly depending on the Singleton is a bad idea; introduce a dependency instead
  */
 
 // ==================Code==========================
